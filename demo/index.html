@@ -1,0 +1,315 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		 <!---- animated-css ---->
+		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+		<script src="js/wow.min.js"></script>
+
+
+		<script>
+		 new WOW().init();
+		</script>
+		<!---- animated-css ---->
+		  <!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----webfonts--->
+		<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,500;1,700&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,500;1,700&display=swap" rel="stylesheet">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<!---//webfonts--->
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+	</head>
+	<body>
+		<div class="bg">
+		<!----- start-header---->
+			<div id="home" class="header wow bounceInDown" data-wow-delay="0.4s">
+					<div class="top-header">
+						<div class="container-container">
+						<div class="logo">
+							<a href="#"><img src="images/logo.png" title="dreams" /></a>
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav">
+							<ul class="top-nav">
+								<li><a href="#home" class="scroll">Home</a></li>
+								<li><a href="#port" class="scroll">Menu</a></li>
+								<li><a href="#team" class="scroll">About</a></li>
+								<li><a href="#contact" class="scroll">Contact</a></li>
+								<li>
+									<button class="quiz-btn">Take the Dosha Quiz</button>
+
+								</li>
+							</ul>
+							<a href="#" id="pull"><img src="images/menu-icon.png" title="menu" /></a>
+						</nav>
+						
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!----- //End-header---->
+			<!---- banner ---->
+			<div class="banner wow fadeIn" data-wow-delay="0.5s">
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+					  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					  <li data-target="#myCarousel" data-slide-to="1"></li>
+					  <li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>
+				
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+					  <div class="item active">
+						<div class="banner-info text-left">
+							<h1>Ayurvedic-Inspired<br /> Grain Bowls</h1>
+						</br/>
+							<p>Global Flavors, Ancient Wisdom, <br/>Nutritious Bowls</p>
+						</br/>	</br/>
+							<div>
+								<button class="section-1-btn">View Menu</button>
+								<button class="section-1-btn order-now">Order Now</button>
+
+							</div>
+							<p class="hash">#yourbellyisyourbrain</p>
+						</div>
+					  </div>
+				
+					 <div class="item">
+						<div class="banner-info text-left">
+							<h1>Bowl Your Way:<br />Mix, Match, Munch!</h1>
+						</br/>
+							<p>Endless Combinations, One Delicious, <br/>Balanced Meal</p>
+						</br/>	</br/>
+							<div>
+								<button class="section-1-btn">View Menu</button>
+								<button class="section-1-btn order-now">Order Now</button>
+
+							</div>
+							<p class="hash">#yourbellyisyourbrain</p>
+						</div>
+					</div>
+					
+					
+					</div>
+				
+					<!-- Left and right controls -->
+					<!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					  <span class="glyphicon glyphicon-chevron-left"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" data-slide="next">
+					  <span class="glyphicon glyphicon-chevron-right"></span>
+					  <span class="sr-only">Next</span>
+					</a> -->
+				  </div>
+			</div>
+		</div>
+			<!---- banner ---->
+			<!-- about section start -->
+			<div id="about" class="about">
+				<div class="container-fluid">
+					
+					<!--- services-grids --->
+					<div class="text-left">
+						<h3 class="title">Dosha Bowl: Healthy eating made easy and delicious.</h3>
+					</div>
+						<div class="desc text-center">
+							<h2>WHAT IS A DOSHA BOWL?</h2>
+							<p>A Dosha Bowl is an Ayurvedic-inspired grain-based bowl.
+							</p>
+							<p>We at Dosha Bowl combine global flavors with ancient Ayurvedic wisdom to
+								create nutritious grain-based bowls that are perfect for busy individuals. Our
+								food is made with fresh, seasonal ingredients and prepared with care and
+								attention to detail.
+								</p>
+								<p>We also offer dosha-specific options, so you can choose the food that is best
+									for your unique body type</p>
+							<h3>Come experience the healing power of Ayurveda and the taste of global cuisine at Dosha Bowl today!
+							</h3>		
+						</div>
+					
+					<!--- services-grids --->
+				</div>
+			</div>
+			<!-- our food section start -->
+				<div id="services" class="our-food top-header">
+						<div class="service-head text-left">
+							<h1>OUR FOOD  <button class="btn-menu">VIEW FULL MENU</button> </h1>
+							<p class="description">AtDosha Bowl,we takepride inour artfulreimaginingofAyurveda,where each grainbowlbecomes a canvas forwellness and
+								mindfulness.Whether you're looking for aquick andhealthy lunchor a leisurelydinnerwith friends,Dosha Bowl has something for
+								everyone</p>
+						</div>
+						<!--- services-grids --->
+						<div class="services-grids text-center food">
+							<div class="col-md-8">
+								<div class="col-md-4 wow bounceIn" data-wow-delay="0.4s">
+									<img src="./images/food/Vata Bowl.jpg" />
+									<h3 class="text-left"><a href="#">VATA BOWL</a></h3>
+									<p class="text-left">Herb moong sprouts/Basmati rice, kale, grilled
+										paneer cheese, roasted chickpeas, grilled yams,
+										grilled broccoli, pickled cucumbers,
+										boondi (crunchy protein), cilantro vinaigrette.</p>
+									<p><a>Order now 	&rarr;</a></p>
+								</div>
+								<div class="col-md-4 wow bounceIn" data-wow-delay="0.4s">
+									<img src="./images/food/Pitta Bowl.jpg" />
+
+									<h3 class="text-left"><a href="#">PITTA BOWL</a></h3>
+									<p class="text-left">Herb quinoa, herb lentil, kale, seasoned tofu,
+										fire-roasted red bell pepper, grilled corn, pickled
+										cucumbers, avocado, sev (crunchy noodles),
+										miso carrot dressing
+										.</p>
+									<p><a>Order now 	&rarr;</a></p>								</div>
+								<div class="col-md-4 wow bounceIn" data-wow-delay="0.4s">
+									<img src="./images/food/Kapha Bowl.jpg" />
+
+									<h3 class="text-left"><a href="#">KAPHA BOWL </a></h3>
+									<p class="text-left">Plant-based beef patties, romaine lettuce, herb
+										quinoa, fire-roasted red bell pepper, grilled yams,
+										grilled cauliflower, grilled broccoli, roasted
+										pumpkin seeds, chipotle tahini dressing.</p>
+									<p><a>Order now 	&rarr;</a></p>									</div>
+							</div>
+							<div class="col-md-4 p-0">
+								<div class="col-md-12 p-0 wow bounceIn" data-wow-delay="0.4s">
+									<img src="./images/food/create your own bowl.jpg" />
+
+									<h3 class="text-left"><a href="#">CREATE YOUR OWN BOWL									</a></h3>
+									<p class="text-left pr-200">Build your perfect bowl with our Build Your Own Bowl option.
+										Choose your size and ingredients from a variety of fresh and
+										delicious options, and enjoy a delicious, balanced meal
+										</p>
+									<p><a>Order now 	&rarr;</a></p>
+																</div>
+							</div>
+							
+							<div class="clearfix"> </div>
+						</div>
+						<!--- services-grids --->
+				</div>
+			<!-- our food section end -->
+<!-- our food section start -->
+<div id="services">
+
+	<!--- services-grids --->
+	<div class="services-grids text-center about-us">
+		<div class="col-md-8 p-0">
+			<div class="cardWrap">
+			<div class="card">
+				<h1 class="title">ABOUT US</h1>
+				<p class="desc">At Dosha Bowl, we believe that food is not just
+					sustenance; it's a journey that connects you to
+					your doshic needs.</p>
+				<p class="sign">Jennifer & Vimmi</p>
+			</div>
+			<p class="hashText">#yourbellyisyourbrain			</p>
+			<div class="text-center learn-more">
+				<button>LEARN MORE</button>
+			</div>
+			</div>
+		</div>
+		<div class="col-md-4 p-0">
+			<img src="./images/about-us-top.png" width="100%"/>
+		</div>
+		
+		<div class="clearfix"> </div>
+	</div>
+	<!--- services-grids --->
+</div>
+<!-- our food section end -->
+
+<div id="services">
+
+	<!--- services-grids --->
+	<div class="services-grids text-center about-us">
+		<div class="col-md-4">
+			<img src="./images/about-us.jpg" width="100%"/>
+
+		</div>
+		<div class="col-md-4">
+			<p class="desc">As two working moms, we founded Dosha Bowl
+				because the demands of daily life left us with little time
+				to dine out or prepare healthy meals at home. Our
+				inspiration stems from our childhood, where our
+				mothers lovingly prepared fresh, nourishing dishes for
+				us every day, instilling in us a deep appreciation for
+				wholesome food. These early experiences nurtured our
+				passion for making nutritious meals more accessible to
+				busy individuals like ourselves.</p>
+				<p class="desc">
+				Having grown up with mothers dedicated to daily
+				culinary excellence, we aspired to create a business
+				that would maintain the same high standards of flavor
+				and quality we cherished throughout our childhood.
+				Our mission at Dosha Bowl is to seamlessly integrate
+				the rich tapestry of global cuisines with an Ayurvedic
+				perspective tailored to your doshic needs. We firmly
+				believe that cultivating a conscious and harmonious
+				relationship with food starts with making choices that
+				align with your unique dosha—a key factor in nurturing
+				a sound and balanced mind and body.</p>
+		</div>
+		<div class="col-md-4">
+			<p class="desc">Dosha Bowl serves flavorful, Ayurvedicinspired food made fresh with healthy
+				ingredients. We offer a fast-casual
+				take out service at an exceptional value
+				without compromising on taste.
+				With each bite, your taste buds embark
+				on a sensory journey, transporting you to
+				the flavors of the world</p>
+		</div>
+		
+		<div class="clearfix"> </div>
+	</div>
+	<!--- services-grids --->
+</div>
+
+
+
+		</div>
+	</body>
+</html>
+
