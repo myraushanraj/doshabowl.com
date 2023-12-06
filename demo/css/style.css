@@ -1543,6 +1543,9 @@ a.leran-more:hover{
 	font-size: 72px;
 	font-weight: 600;
 }
+a{
+	cursor: pointer;
+}
 .about-us .desc{
 	color: #365235;
     font-size: 21px;
