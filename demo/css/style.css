@@ -74,8 +74,8 @@ ul.top-nav{
 }
 .top-nav ul li a{
 	padding: 0.2em 1.5em;
-	font-size: 0.9em;
-	font-weight: 400;
+	font-size: 1.1em;
+		font-weight: 400;
 	text-align: center;
 	text-transform: uppercase;
 	position: relative;
@@ -229,7 +229,7 @@ nav a#pull {
     font-style: normal;
     color: rgb(54, 91, 7);
     text-decoration: none;
-	font-size: 72px;
+	font-size: 80px;
 }
 .banner-info span{
 	width:15%;
@@ -245,9 +245,9 @@ nav a#pull {
     font-size: 24px;
 }
 .section-1-btn{
-	border-radius: 33px;
-    font-size: 16px;
-    padding: 16px 29px;
+    border-radius: 33px;
+    font-size: 18px;
+    padding: 16px 39px;
     font-weight: 600;
 }
 .order-now{
@@ -1451,18 +1451,14 @@ a.leran-more:hover{
 	}
 }
 .about{
-	background: url(../images/about-bg.jpg) no-repeat;
-    background-position: top -619px right -342px;
-    background-size: 114%;
-    background-origin: revert;
-	padding-bottom: 0px;
+	background: url(../images/about-bg.png) no-repeat;
+    padding-bottom: 0px;
+    background-position: center;
+    background-size: cover;
 }
 .about .desc{
 	margin-top: 40px;
 	padding-top: 40px;
-	background: #fff;
-	border-top-left-radius: 55%;
-    border-top-right-radius: 55%;
 }
 .about .title{
 	font-size: 30px;
@@ -1580,7 +1576,7 @@ a{
 }
 
 .discover-section {
-	background-image: url(../images/discover-image.jpg);
+	background-image: url(../images/discover-image.png);
 	padding: 120px 0px;
 
 }
@@ -1648,7 +1644,7 @@ a{
 }
 
 .bg-color {
-	background-color: #c6e1c6;
+	background-color: #e6ebe4;
 }
 .orderWrap{
 	padding: 100px 0px;
@@ -1691,7 +1687,7 @@ text-align: center;
 }
 
 .footer {
-	background-color: #708270;
+	background-color: #677c5d;
 }
 
 .dosha-bowl h2{
@@ -1729,6 +1725,10 @@ text-align: center;
 	margin:0px;
 }
 @media screen and (max-width: 600px) {
+	.quiz-btn{
+		width: 75%;
+		margin: 14px;
+	}
 	.about .desc p{
 		font-weight: 400;
 		font-style: normal;
