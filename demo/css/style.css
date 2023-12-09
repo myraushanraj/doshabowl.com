@@ -1160,7 +1160,7 @@ a.leran-more:hover{
 		padding: 2.4em 1em 0em 1em;
 	}
 	.banner-info {
-		padding: 3em 0 4em;
+		padding: 3em 20px 4em;
 	}
 	.banner-info h1 {
 		font-size: 1.7em;
@@ -1725,6 +1725,9 @@ text-align: center;
 .order-section .row{
 	display: flex;
 }
+.row{
+	margin:0px;
+}
 @media screen and (max-width: 600px) {
 	.about .desc p{
 		font-weight: 400;
@@ -1736,5 +1739,135 @@ text-align: center;
 	}
 	.pr-200{
 		padding-right: 0px;
+	}
+	.discover h2 {
+		font-size: 58px;
+		color: #fff;
+		line-height: 46px;
+	}
+	.discover-wrap{
+		margin: 0px 0px;
+	
+	 }
+	 .top-header {
+		padding: 0em 1em;
+	}
+	.discover-button button {
+		padding: 12px 8px;
+		border-radius: 12px;
+		margin-top: 30px;
+		font-size: 17px;
+		font-weight: 700;
+		border: 1px solid #fff;
+	}
+	.discover-button{
+		margin-left: 12px;
+	}
+	.order-section .row {
+		display: unset;
+	}
+	.about .title {
+		font-size: 30px;
+		font-weight: 500;
+		width: 100%;
+		text-align: center;
+	}
+	.banner-info {
+		font-weight: 400;
+		font-style: normal;
+		color: rgb(54, 91, 7);
+		text-decoration: none;
+		border-left: 5px solid rgb(54, 91, 7);
+		margin: 90px 0px 161px 14px;
+		padding-left: 30px;
+
+	}
+	.section-1-btn {
+		border-radius: 33px;
+		font-size: 16px;
+		padding: 16px 25px;
+		margin-left: 6px;
+	}
+	.banner-info h1 {
+		font-size: 34px !important;
+		width: 100%;
+	}
+	.banner-info p {
+		width: 100%;
+		font-size: 24px !important;
+	}
+	.about .desc {
+		margin-top: 0px;
+		padding-top: 6px;
+		background: #fff;
+		border-top-left-radius: 55%;
+		border-top-right-radius: 55%;
+	}
+	.about .desc h3 {
+		font-weight: 700;
+		font-style: normal;
+		color: rgb(54, 82, 53);
+		text-decoration: none;
+		padding-bottom: 44px;
+		margin-top: 35px;
+		margin-bottom: 0px;
+	}
+	.our-food h1 {
+		color: #355136;
+		font-weight: 600;
+		font-size: 72px;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.btn-menu {
+		background: #617d5a;
+		color: #fff;
+		font-size: 20px;
+		padding: 20px 26px;
+		border: none;
+		border-radius: 10px;
+		font-weight: 600;
+		float: unset;
+	}
+	.own-bowl, .own-bowl .col-md-12{
+		padding: 0px 15px;
+	}
+	.cardWrap {
+		margin-top: 12px !important;
+	}
+	.about-us .card {
+		width: 100%;
+		margin-left: auto;
+		background: #e8ede5;
+		padding: 22px 44px 22px 46px;
+	}
+	.about-us .hashText {
+		text-align: left;
+		padding-left: 4px;
+		font-size: 22px;
+		font-weight: 400;
+	}
+	.learn-more button {
+		font-size: 20px;
+		font-weight: 400;
+		padding: 10px 35px;
+		background: transparent;
+		border: 1px solid;
+		margin-bottom: 29px;
+	}
+	.about-image{
+		padding: 0px 15px;
+	}
+	.reserved {
+		padding: 12px;
+
+	}
+	.hash {
+		position: absolute;
+		bottom: -175px;
+		right: -11px;
+		font-weight: 400;
+		font-style: normal;
+		color: rgb(0 0 0) !important;
 	}
 }
