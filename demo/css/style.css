@@ -1706,7 +1706,7 @@ text-align: center;
 	color: #fff;
 }
 
-.quick-link p{
+.quick-link p,.quick-link p a{
 	font-size: 16px;
 	color: #fff;
 }
@@ -1728,6 +1728,9 @@ text-align: center;
 	.quiz-btn{
 		width: 75%;
 		margin: 14px;
+	}
+	.about{
+		background: #fff;
 	}
 	.about .desc p{
 		font-weight: 400;
