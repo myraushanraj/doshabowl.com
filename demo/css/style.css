@@ -83,7 +83,7 @@ ul.top-nav{
 	font-size: 1.1em;
 		font-weight: 400;
 	text-align: center;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	position: relative;
 
 	font-weight: 700;
