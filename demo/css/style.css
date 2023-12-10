@@ -1,3 +1,11 @@
+@font-face { font-family: GlacialIndifference; src: url('../font/GlacialIndifference-Regular.otf'); } 
+ @font-face { font-family: GlacialIndifference; font-weight: bold; src: url('../font/GlacialIndifference-Bold.otf');}
+
+ @font-face { font-family: TT; src: url('../font/tt/TT\ Chocolates\ Regular.otf'); } 
+ @font-face { font-family: TT; font-weight: bold; src: url('../font/tt/TT\ Chocolates\ Bold.otf');}
+ @font-face { font-family: TT; font-weight: 500; src: url('../font/tt/TT\ Chocolates\ Medium.otf');}
+ @font-face { font-family: TT; font-weight: thin; src: url('../font/tt/TT\ Chocolates\ Light.otf');}
+
 html, body{
     font-size: 100%;
   	 background: #FFf;
@@ -33,7 +41,7 @@ body a{
 }
 .logo{
 	float: left;
-	margin-top: 0.6em;
+	margin-top:34px;
 }
 .logo a{
 	color: #303030;
@@ -43,13 +51,13 @@ body a{
 }
 .quiz-btn{
     background: #b4cd31;
-    color: #fff;
+    color: #fff !important;
     padding: 13px 34px;
     font-size: 18px;
     font-weight: 600;
     border: none;
     border-radius: 10px;	
-	margin-left: 286px;
+	margin-left: 213px;
 }
 .logo a:hover{
 	text-decoration:none;
@@ -62,14 +70,12 @@ body a{
 	padding: 0.8em 5em;
 }
 .logo a img{
-	width: 160px;
+	width: 170px;
 }
 .top-nav{
-	/* margin-right: 30%; */
 	text-align: center;
 }
 ul.top-nav{
-	/* margin-right: 30%; */
 	float: right;
 }
 .top-nav ul li a{
@@ -108,7 +114,7 @@ nav {
 nav ul {
 	padding: 0;
 	/* float: right; */
-	margin: 0.9em 0;
+	margin: 1.4em 0;
 }
 nav li {
 	display: inline;
@@ -221,7 +227,7 @@ nav a#pull {
     color: rgb(54, 91, 7);
     text-decoration: none;
     border-left: 5px solid rgb(54, 91, 7);
-    margin: 90px 0px 161px 42px;
+    margin: 55px 0px 161px 42px;
     padding-left: 30px;
 }
 .banner-info h1{
@@ -229,7 +235,9 @@ nav a#pull {
     font-style: normal;
     color: rgb(54, 91, 7);
     text-decoration: none;
-	font-size: 80px;
+	font-size: 100px;
+	line-height: 98px;
+
 }
 .banner-info span{
 	width:15%;
@@ -238,16 +246,18 @@ nav a#pull {
 	display:inline-block;
 }
 .banner-info p{
-	font-weight: 500;
+    font-weight: 500;
     font-style: normal;
     color: rgb(97, 126, 90);
     text-decoration: none;
-    font-size: 24px;
+    font-size: 33px;
+    font-family: GlacialIndifference;
+    line-height: 41px;
 }
 .section-1-btn{
     border-radius: 33px;
-    font-size: 18px;
-    padding: 16px 39px;
+    font-size: 24px;
+    padding: 16px 45px;
     font-weight: 600;
 }
 .order-now{
@@ -255,6 +265,7 @@ nav a#pull {
     color: #fff;
     border: 2px solid #b4cd31;
     margin-left: 34px;
+	font-family: 'TT';
 }
 /*---- services ----*/
 .services{
@@ -1461,57 +1472,70 @@ a.leran-more:hover{
 	padding-top: 40px;
 }
 .about .title{
-	font-size: 30px;
-    width: 384px;
-    font-weight: 500;
+    font-size: 47px;
+    width: 545px;
+    font-weight: 400;
+    font-family: 'Fraunces', serif;
+    padding-left: 33px;
+    line-height: 53px;
 }
-.about .desc h2{
+.about .desc h1{
 	font-weight: 700;
     font-style: normal;
     color: rgb(54, 82, 53);
     text-decoration: none;
-	margin-bottom: 35px;
+    margin-bottom: 37px;
+    font-family: TT;
 }
 .about .desc h3{
-	font-weight: 700;
+    font-weight: 600;
     font-style: normal;
     color: rgb(54, 82, 53);
     text-decoration: none;
-	padding-bottom: 100px;
-	margin-top: 35px;
-	margin-bottom: 0px;
+    padding-bottom: 100px;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    font-family: 'TT';
 }
 .p-0{
 	padding: 0px;
 }
 .about .desc p{
-	font-weight: 400;
+	font-weight: 500;
     font-style: normal;
     color: rgb(54, 82, 53);
     text-decoration: none;
-	padding: 0 294px;
-    font-size: 20px;
+    padding: 0px 359px;
+    font-size: 22px;
+    font-family: 'TT';
+    margin: 0px;
 }
 .our-food h1{
     color: #355136;
-    font-weight: 600;
-    font-size: 72px
+    font-weight: 700;
+    font-size: 64px;
+    font-family: 'Montserrat', sans-serif;
 }
 .our-food img{
 	width: 100%;
+	height: 308px;
 }
 .our-food .food a{
 	text-decoration: underline !important;
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 22px;
+    font-family: 'TT';
 }
 .our-food .food p{
 	text-align: left;
+	font-family: 'TT';
+	min-height: 137px;
 }
 .our-food .food p a{
 	text-decoration: unset !important;
     font-weight: 400;
     font-size: 18px;
+	font-family: 'TT';
 }
 .btn-menu{
     float: right;
@@ -1525,19 +1549,23 @@ a.leran-more:hover{
     font-weight: 600;
 }
 .description{
-	font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     color: rgb(54, 82, 53);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
+    font-family: 'TT';
+    margin: 0px;
 }
 .pr-200{
 	padding-right: 200px;
 }
 .about-us .title{
 	color: #355136;
-	font-size: 72px;
-	font-weight: 600;
+    font-size: 72px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 a{
 	cursor: pointer;
@@ -1545,36 +1573,48 @@ a{
 .about-us .desc{
 	color: #365235;
     font-size: 21px;
+    font-family: 'TT';
+    font-weight: 500;
+    padding: 20px 0px 35px 0px;
 }
 .about-us .sign{
 	font-family: 'Herr Von Muellerhoff', cursive;
-	text-align: center;
+	text-align: right;
 	font-size: 52px;
 
 }
 .about-us .card{
-    width: 90%;
+	width: 90%;
     margin-left: auto;
     background: #e8ede5;
-    padding: 22px 44px 22px 46px;
+    padding: 22px 210px;
+    font-family: 'TT';
+    font-weight: 500;
 }
 .about-us .hashText{
 	text-align: left;
     padding-left: 88px;
     font-size: 22px;
     font-weight: 400;
+	font-family: 'TT';
 }
 .learn-more button{
 	font-size: 20px;
-    font-weight: 400;
-    padding: 10px 35px;
+    font-weight: 500;
+    padding: 15px 65px;
     background: transparent;
     border: 1px solid;
+    font-family: 'TT';
+	border-top: 2px solid;
 }
 .about-us .cardWrap{
 	margin-top: 170px;
 }
-
+.us .desc{
+	text-align: justify;
+	padding-bottom: 0px;
+	font-weight: 400;
+}
 .discover-section {
 	background-image: url(../images/discover-image.png);
 	padding: 120px 0px;
@@ -1584,12 +1624,20 @@ a{
 .discover h2 {
 	font-size: 76px;
     color: #fff;
-	line-height: 70px;
+	line-height: 60px;
+	font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 .discover h3 {
 	font-size: 48px;
     color: #fff;
+	font-family: 'Montserrat', sans-serif;
+    text-align: center;
+	font-weight: 600;
+}
+.discoverWraps{
+	padding: 44px;
 }
 .discover{
 	color: #fff;
@@ -1598,27 +1646,43 @@ a{
 .discover p {
 	font-size: 44px;
     color: #fff;
-	border-top: 3px solid #fff;
+	
 	text-align: center;
-    display: inline;
-    padding: 0px 10px;width: 329px;
+   
+    padding: 0px 10px;
+	font-family: 'Montserrat', sans-serif;
+    text-align: center;
+	font-weight: 600;
 }
-
+.discover p span{
+	display: inline;
+	border-top: 3px solid #fff;
+}
 .m-t-35 {
 	margin-top: 35px;
 }
  .discover-box {
-	background-color: #325232;
-    font-size: 24px;
+    background:url(../images/dis-bg.png) no-repeat 0px 0px;
+	background-size:cover;
+	background-position: center;
+    font-size: 26px;
     padding: 28px;
     border-radius: 15px;
-    /* margin-top: 140px; */
     font-weight: 400;
+    text-align: center;
+    font-family: 'TT';
     text-align: center;
  }
  .discover-wrap{
     margin: 0px 36px;
 
+ }
+ .about-img{
+	padding-left: 0px;
+ }
+ .about-img img{
+	border-radius: 80px;
+	margin-top: 60px;
  }
 .discover-box p{
 	color: #fff;
@@ -1651,43 +1715,86 @@ a{
 	text-align: center
 }
 .order h2{
-	font-size: 60px;
+	color: #4b6548;
+    font-size: 72px;
     font-weight: 700;
-    color: #3d4d3d;
-	text-align: center;
-	margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
-
+.order{
+	font-family: 'TT';
+}
 .order h3{
-	font-size: 28px;
+    font-size: 36px;
     font-weight: 600;
-text-align: center;
+    text-align: center;
     margin-top: 0px;
-	color: #3d4d3d;
+    color: #4b6548;
+	margin-bottom: 20px;
 }
 
 .order p{
-	font-size: 18px;
+	font-size: 22px;
     font-weight: 700;
     text-align: center;
-	color: #3d4d3d;
+    color: #4b6548;
+    margin: 0px 0px;
 }
 
 .delivery-option h2{
-	font-size: 18px;
-	color: #3d4d3d;
-	font-weight: 600;
-	text-align: center;
+	font-size: 24px;
+    color: #4b6548;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'TT';
+    margin-top: 30px;
 }
 
-.delivery-option p{
-	font-size: 18px;
-	color: #3d4d3d;
-	text-align: center;
+.delivery-option {
+	font-size: 22px;
+    color: rgb(97, 126, 90);
+    text-align: center;
+    font-family: 'TT';
+    font-weight: 500;
+	margin-bottom: 30px;
+}
+.delivery-option .flex div{
+	display: flex;
+	margin: auto;
+}
+.delivery-option .flex div img{
+	width: 32px;
+    height: 32px;
+}
+.delivery-option .other div img{
+    height: unset;
+	width: unset;
+}
+.delivery-option .flex div p{
+    padding-top: 3px;
+    padding-left: 10px;
+    margin: 0;
+	font-size: 22px;
+    color: rgb(97, 126, 90);
+    text-align: center;
+    font-family: 'TT';
+    font-weight: 500;
 }
 
 .footer {
 	background-color: #677c5d;
+	font-family: 'TT';
+}
+.footer-logo{
+	width: 161px;
+    margin-bottom: 36px;
+}
+.social{
+	text-align: center;
+}
+.footer .social img{
+	width: 38px;
+	border-radius: 50%;
 }
 
 .dosha-bowl h2{
@@ -1717,12 +1824,18 @@ text-align: center;
 	font-weight: 600;
 	text-align: center;
 	text-transform: uppercase;
+	margin-top: 50px;
 }
 .order-section .row{
 	display: flex;
 }
 .row{
 	margin:0px;
+}
+.section-1-desc{
+}
+.section-1-button{
+	margin-top: 70px;
 }
 @media screen and (max-width: 600px) {
 	.quiz-btn{
@@ -1781,7 +1894,7 @@ text-align: center;
 		color: rgb(54, 91, 7);
 		text-decoration: none;
 		border-left: 5px solid rgb(54, 91, 7);
-		margin: 90px 0px 161px 14px;
+		margin: 90px 0px 61px 14px;
 		padding-left: 30px;
 
 	}
@@ -1794,10 +1907,12 @@ text-align: center;
 	.banner-info h1 {
 		font-size: 34px !important;
 		width: 100%;
+		line-height: 42px;
 	}
 	.banner-info p {
 		width: 100%;
 		font-size: 24px !important;
+		line-height: 32px;
 	}
 	.about .desc {
 		margin-top: 0px;
