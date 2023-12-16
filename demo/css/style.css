@@ -1633,22 +1633,28 @@ a{
 	font-weight: 400;
 }
 .discover-section {
-	background-image: url(../images/discover-image.png);
+	background-image: url(../images/discover-new.jpg);
 	padding: 120px 0px;
+
+}
+.aboutUsSection {
+	background-image: url(../images/aboutUsSection.jpg);
+	background-repeat: no-repeat;
 
 }
 
 .discover h2 {
 	font-size: 76px;
-    color: #fff;
-	line-height: 60px;
-	font-family: 'Montserrat', sans-serif;
+    color: #0d0d0d;
+    line-height: 60px;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
+    font-weight: 700;
 }
 
 .discover h3 {
 	font-size: 48px;
-    color: #fff;
+    color: #000;
 	font-family: 'Montserrat', sans-serif;
     text-align: center;
 	font-weight: 600;
@@ -1662,7 +1668,7 @@ a{
 
 .discover p {
 	font-size: 44px;
-    color: #fff;
+    color: #000;
 	
 	text-align: center;
    
@@ -1673,7 +1679,8 @@ a{
 }
 .discover p span{
 	display: inline;
-	border-top: 3px solid #fff;
+	border-top: 3px solid #000;
+	color: #000;
 }
 .m-t-35 {
 	margin-top: 35px;
@@ -1791,7 +1798,7 @@ a{
     color: rgb(97, 126, 90);
     text-align: center;
     font-family: 'TT';
-    font-weight: 400;
+	font-weight: 600;
 }
 
 .footer {
@@ -1849,6 +1856,20 @@ a{
 }
 .section-1-button{
 	margin-top: 70px;
+}
+.w-100{
+	max-width: 100%;
+}
+.modal-body {
+    position: relative;
+    padding: 0px;
+}
+button.close{
+	z-index: 11;
+    font-size: 32px;
+    opacity: 1;
+	position: absolute;
+    right: 3px;
 }
 @media screen and (max-width: 600px) {
 	.our-food .food p {
