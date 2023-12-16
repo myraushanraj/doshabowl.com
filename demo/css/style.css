@@ -1851,6 +1851,18 @@ a{
 	margin-top: 70px;
 }
 @media screen and (max-width: 600px) {
+	.our-food .food p {
+	
+		min-height: 40px;
+	}
+	h1 .btn-menu{
+		display: none;
+	}
+	.cus-btn-menu{
+		display: block;
+		margin-bottom: 20px !important;
+		margin-left: 70px !important;
+	}
 	.quiz-btn{
 		width: 75%;
 		margin: 14px;
