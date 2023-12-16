@@ -1715,6 +1715,7 @@ a{
 .discover-button button{
     padding: 12px 50px;
     margin-top: 30px;
+	border: 1px solid #000;
 }
 .discover-section .section{
 
@@ -1902,9 +1903,11 @@ button.close{
 	.pr-200{
 		padding-right: 0px;
 	}
+	.discoverWraps {
+		padding: 0px;
+	}
 	.discover h2 {
 		font-size: 58px;
-		color: #fff;
 		line-height: 46px;
 	}
 	.discover-wrap{
@@ -1920,7 +1923,6 @@ button.close{
 		margin-top: 30px;
 		font-size: 17px;
 		font-weight: 700;
-		border: 1px solid #fff;
 	}
 	.discover-button{
 		margin-left: 12px;
