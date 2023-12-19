@@ -1872,6 +1872,12 @@ button.close{
 	position: absolute;
     right: 3px;
 }
+.cus-btn-menu{
+	display: none;
+}
+.aboutUsSection .about-us{
+	padding-top: 0px;
+}
 @media screen and (max-width: 600px) {
 	.our-food .food p {
 	
