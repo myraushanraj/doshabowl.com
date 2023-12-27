@@ -1502,6 +1502,7 @@ a.leran-more:hover{
     text-decoration: none;
     margin-bottom: 37px;
     font-family: TT;
+	padding-top: 14px;
 }
 .about .desc h3{
     font-weight: 600;
