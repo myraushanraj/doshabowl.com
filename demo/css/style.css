@@ -141,8 +141,8 @@ nav a#pull {
 }
 /*Styles for screen 600px and lower*/
 @media screen and (max-width: 768px) {
+	
 	.quiz-btn{
-		background: #b4cd31;
 		color: #fff;
 		padding: 13px 34px;
 		font-size: 18px;
@@ -1638,7 +1638,6 @@ a{
 
 }
 .aboutUsSection {
-	background-image: url(../images/aboutUsSection.jpg);
 	background-repeat: no-repeat;
 
 }
@@ -1879,6 +1878,12 @@ button.close{
 	padding-top: 0px;
 }
 @media screen and (max-width: 600px) {
+	.about-us .cardWrap{
+		background: #e8ede5;
+	}
+	.discover-section {
+		padding: 40px 0px;
+	}
 	.our-food .food p {
 	
 		min-height: 40px;
