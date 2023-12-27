@@ -1541,7 +1541,10 @@ a.leran-more:hover{
     top: 72px;
     width: 177px;
     background: #0000004f;
-    left: 23%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
     border-radius: 6px;
 }
 .bowl-card p{
@@ -1551,6 +1554,7 @@ a.leran-more:hover{
     color: #fff;
     line-height: 33px;
     padding-top: 40px;
+	text-align: center !important;
 }
 .our-food .food a{
 	text-decoration: underline !important;
@@ -1878,6 +1882,9 @@ button.close{
 	padding-top: 0px;
 }
 @media screen and (max-width: 600px) {
+	.discover p {
+		font-size: 36px;
+	}
 	.our-food img {
 		height: unset;
 	}
@@ -1897,7 +1904,8 @@ button.close{
 	.cus-btn-menu{
 		display: block;
 		margin-bottom: 20px !important;
-		margin-left: 70px !important;
+		display: inline-block;
+    	margin: 0 auto;
 	}
 	.quiz-btn{
 		width: 75%;
