@@ -1539,7 +1539,7 @@ a.leran-more:hover{
 }
 .bowl-card{
 	position: absolute;
-    top: 72px;
+    top: 15%;
     width: 177px;
     background: #0000004f;
     left: 0;
@@ -1547,6 +1547,9 @@ a.leran-more:hover{
     margin: auto;
     text-align: center;
     border-radius: 6px;
+
+
+
 }
 .bowl-card p{
     font-weight: 600;
@@ -1554,7 +1557,7 @@ a.leran-more:hover{
     font-family: 'TT';
     color: #fff;
     line-height: 33px;
-    padding-top: 40px;
+    padding-top: 26px;
 	text-align: center !important;
 }
 .our-food .food a{
@@ -1883,6 +1886,11 @@ button.close{
 	padding-top: 0px;
 }
 @media screen and (max-width: 600px) {
+	.bowl-card{
+		top: 23%;
+		
+	
+	}
 	.discover p {
 		font-size: 36px;
 	}
