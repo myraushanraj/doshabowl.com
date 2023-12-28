@@ -1527,6 +1527,9 @@ a.leran-more:hover{
     font-family: 'TT';
     margin: 0px;
 }
+.about .desc p.nd{
+	padding: 0px 262px;
+}
 .our-food h1{
     color: #355136;
     font-weight: 700;
@@ -1885,11 +1888,32 @@ button.close{
 .aboutUsSection .about-us{
 	padding-top: 0px;
 }
+.desktop{
+	display: block;
+}
+.mobile{
+	display: none;
+}
+.carousel-inner {
+   min-height: 670px;
+}
 @media screen and (max-width: 600px) {
+	.carousel-inner {
+		min-height: 634px;
+	 }
+	.desktop{
+		display: none;
+	}
+	.mobile{
+		display: block;
+	}
 	.bowl-card{
 		top: 23%;
 		
 	
+	}
+	.bowl-card p{
+		padding: 26px 0px 14px 0px;
 	}
 	.discover p {
 		font-size: 36px;
