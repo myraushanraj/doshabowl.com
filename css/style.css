@@ -1484,7 +1484,7 @@ a.leran-more:hover{
     background-size: cover;
 }
 .about .desc{
-	margin-top: 40px;
+	margin-top: 100px;
 	padding-top: 40px;
 }
 .about .title{
@@ -1522,7 +1522,7 @@ a.leran-more:hover{
     font-style: normal;
     color: #000;
     text-decoration: none;
-    padding: 0px 359px;
+    padding: 0px 330px;
     font-size: 22px;
     font-family: 'TT';
     margin: 0px;
@@ -1996,6 +1996,8 @@ button.close{
 		font-weight: 500;
 		width: 100%;
 		text-align: center;
+		padding-left: 0px;
+		padding-top: 20px;
 	}
 	.banner-info {
 		font-weight: 400;
