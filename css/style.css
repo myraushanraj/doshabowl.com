@@ -1665,7 +1665,7 @@ a{
 
 .discover h2 {
 	font-size: 76px;
-    color: #0d0d0d;
+    color: #355136;
     line-height: 60px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -1966,7 +1966,6 @@ button.close{
 	.about .desc p{
 		font-weight: 400;
 		font-style: normal;
-		color: rgb(54, 82, 53);
 		text-decoration: none;
 		padding: 0 10px !important;
 		font-size: 20px;
@@ -2045,9 +2044,8 @@ button.close{
 	.about .desc h3 {
 		font-weight: 700;
 		font-style: normal;
-		color: rgb(54, 82, 53);
 		text-decoration: none;
-		padding-bottom: 44px;
+		padding-bottom: 30px;
 		margin-top: 35px;
 		margin-bottom: 0px;
 	}
