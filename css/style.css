@@ -39,6 +39,14 @@ body a{
 }
 .header{
 }
+.m-auto{
+	margin: auto;
+}
+a.m-auto:hover{
+	text-decoration: none;
+}
+
+
 .logo{
 	float: left;
 	margin-top:34px;
