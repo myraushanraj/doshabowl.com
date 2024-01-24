@@ -1625,10 +1625,11 @@ a{
 }
 .about-us .sign{
 	font-family: 'Herr Von Muellerhoff', cursive;
-	text-align: right;
+	text-align: center;
 	font-size: 52px;
 
 }
+
 .about-us .card{
 	width: 90%;
     margin-left: auto;
@@ -1913,7 +1914,20 @@ button.close{
 .carousel-inner {
    min-height: 670px;
 }
+.whatD li{
+	text-align: center;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	font-size: 22px;
+	list-style: none;
+	font-family: 'TT';
+}
 @media screen and (max-width: 600px) {
+	.whatD li{
+		text-align: left;
+		list-style: unset;
+	}
 	.carousel-inner {
 		min-height: 634px;
 	 }
@@ -2065,6 +2079,7 @@ button.close{
 		border-radius: 10px;
 		font-weight: 600;
 		float: unset;
+		margin-top: -35px;
 	}
 	.own-bowl, .own-bowl .col-md-12{
 		padding: 0px 15px;
