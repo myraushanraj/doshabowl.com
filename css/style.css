@@ -1930,7 +1930,43 @@ button.close{
 	list-style: none;
 	font-family: 'TT';
 }
+.modalData{
+	position: absolute;
+    top: 0;
+	width: 100%;
+	padding-right: 30px;
+    padding-left: 30px;
+}
+.modalData .order h2 {
+	color: #4b6548;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.modalData .order p{
+	font-size: 28px;
+    color: rgb(97, 126, 90);
+    text-align: center;
+    font-family: 'TT';
+    font-weight: 500;
+}
+    
 @media screen and (max-width: 600px) {
+	.modalData {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		padding-right: 30px;
+		padding-left: 30px;
+		background-image: url(../images/popup-new.jpg);
+		background-position: center;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	.poster{
+		display: none;
+	}
 	.whatD li{
 		text-align: left;
 		list-style: unset;
