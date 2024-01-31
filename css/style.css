@@ -1963,6 +1963,7 @@ button.close{
 		background-position: center;
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
+		padding-bottom: 21px;
 	}
 	.poster{
 		display: none;
