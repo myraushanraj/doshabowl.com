@@ -1961,11 +1961,18 @@ button.close{
 		padding-left: 30px;
 		background-image: url(../images/popup3.jpg);
 		background-position: center;
-		background-size: 100% 100%;
+		background-size: cover;
 		background-repeat: no-repeat;
-		padding-bottom: 21px;
-
-		padding-top: 146px;
+		padding-bottom: 132px;
+    	padding-top: 156px;
+	}
+	.modalData .order p {
+		font-size: 28px;
+		color: rgb(97, 126, 90);
+		text-align: center;
+		font-family: 'TT';
+		font-weight: 500;
+		line-height: 32px;
 	}
 	.poster{
 		display: none;
