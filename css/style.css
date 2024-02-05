@@ -1959,11 +1959,13 @@ button.close{
 		width: 100%;
 		padding-right: 30px;
 		padding-left: 30px;
-		background-image: url(../images/pop-mobile.jpg);
+		background-image: url(../images/popup3.jpg);
 		background-position: center;
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
 		padding-bottom: 21px;
+
+		padding-top: 146px;
 	}
 	.poster{
 		display: none;
