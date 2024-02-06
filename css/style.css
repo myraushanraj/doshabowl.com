@@ -1786,7 +1786,7 @@ a{
 	font-size: 22px;
     font-weight: 700;
     text-align: center;
-    color: #4b6548;
+    color: #000000;
     margin: 0px 0px;
 }
 
@@ -1807,6 +1807,9 @@ a{
     font-weight: 500;
 	margin-bottom: 30px;
 }
+.delivery-option p{
+	color: #000000;
+}
 .delivery-option .flex div{
 	display: flex;
 	margin: auto;
@@ -1824,7 +1827,7 @@ a{
     padding-left: 10px;
     margin: 0;
 	font-size: 22px;
-    color: rgb(97, 126, 90);
+    color: #000000;
     text-align: center;
     font-family: 'TT';
 	font-weight: 600;
@@ -1943,15 +1946,47 @@ button.close{
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+	margin: 15px 0px;
 }
 .modalData .order p{
 	font-size: 28px;
-    color: rgb(97, 126, 90);
+    color: #000000;
     text-align: center;
     font-family: 'TT';
     font-weight: 500;
 }
-    
+.modalData .delivery-option .flex div img:nth-child(1) {
+    width: 42px;
+    height: 42px;
+}
+.modalData .delivery-option .flex div img {
+    width: unset !important;
+    height: 42px;
+}
+.modalData .delivery-option .flex div p {
+    padding-top: 1px;
+    padding-left: 10px;
+    margin: 0;
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    font-family: 'TT';
+    font-weight: 600;
+}
+.modalData .delivery-option{
+	margin-bottom: 10px;
+}
+.img-desc{
+	font-size: 24px !important;
+	padding: 0px 20px;
+}
+.pickup{
+	margin: 15px 0px 4px 0px !important;
+    font-size: 32px !important;
+}
+.modalData .address{
+	line-height: 34px;
+}
 @media screen and (max-width: 600px) {
 	.modalData {
 		position: absolute;
@@ -1963,8 +1998,18 @@ button.close{
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
-		padding-bottom: 132px;
-    	padding-top: 156px;
+		padding-bottom: 56px;
+    	padding-top: 190px;
+	}
+	.modalData .delivery-option .flex div p {
+		padding-top: 8px;
+		padding-left: 10px;
+		margin: 0;
+		font-size: 24px;
+		color: #000000;
+		text-align: center;
+		font-family: 'TT';
+		font-weight: 600;
 	}
 	.modalData .order p {
 		font-size: 28px;
