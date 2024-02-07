@@ -2004,11 +2004,12 @@ button.close{
 		padding-right: 30px;
 		padding-left: 30px;
 		background-image: url(../images/popup3.jpg);
-		background-position: 100% 41%;
+		background-position: 100% 53%;
 		background-size: cover;
 		background-repeat: no-repeat;
 		padding-bottom: 56px;
     	padding-top: 125px;
+		height: 637px;
 	}
 	.modalData .delivery-option .flex div p {
 		padding-top: 8px;
