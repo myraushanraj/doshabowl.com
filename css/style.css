@@ -1846,7 +1846,7 @@ a{
 	border-radius: 50%;
 }
 .footer svg{
-	background:black;
+	/* background:black; */
     padding: 7px;
     width: 38px;
     height: 38px;
