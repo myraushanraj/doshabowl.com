@@ -1815,13 +1815,10 @@ a{
 	margin: auto;
 }
 .delivery-option .flex div img{
-	width: 32px;
-    height: 32px;
+	width: 350px;
+   
 }
-.delivery-option .other div img{
-    height: unset;
-	width: unset;
-}
+
 .delivery-option .flex div p{
     padding-top: 3px;
     padding-left: 10px;
@@ -1949,7 +1946,7 @@ button.close{
 	margin: 15px 0px;
 }
 .modalData .order p{
-	font-size: 28px;
+	font-size: 24px;
     color: #000000;
     text-align: center;
     font-family: 'TT';
@@ -1972,6 +1969,7 @@ button.close{
 }
 .modalData table{
 	margin-left: 15px;
+	margin: auto;
 }
 .img-desc{
 	font-size: 24px !important;
@@ -1983,19 +1981,22 @@ button.close{
 .modalData .address{
 	line-height: 34px;
 }
+.modalData .delivery-option img{
+	width: 300px;
+}
 .uber{
-    width: 42px !important;
-	height: 42px !important;
+   margin-left: 6px;
 }
 .grub{
-	width: 105px !important;
-	height: unset !important;
+	
 }
 .door{
-	width: 115px !important;
-	height: unset !important;
+	
 }
 @media screen and (max-width: 600px) {
+	.modalData .delivery-option img{
+		width: 100%;
+	}
 	.img-desc {
 		font-size: 20px !important;
 		padding: 0px 0px;
