@@ -1935,14 +1935,14 @@ button.close{
 }
 .modalData{
 	position: absolute;
-    top: 0;
+    top: 6px;
 	width: 100%;
 	padding-right: 30px;
     padding-left: 30px;
 }
 .modalData .order h2 {
 	color: #4b6548;
-    font-size: 38px;
+    font-size: 28px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -1955,14 +1955,8 @@ button.close{
     font-family: 'TT';
     font-weight: 500;
 }
-.modalData .delivery-option .flex div img:nth-child(1) {
-    width: 42px;
-    height: 42px;
-}
-.modalData .delivery-option .flex div img {
-    width: unset !important;
-    height: 42px;
-}
+
+
 .modalData .delivery-option .flex div p {
     padding-top: 1px;
     padding-left: 10px;
@@ -1982,12 +1976,27 @@ button.close{
 }
 .pickup{
 	margin: 15px 0px 4px 0px !important;
-    font-size: 32px !important;
 }
 .modalData .address{
 	line-height: 34px;
 }
+.uber{
+    width: 42px !important;
+	height: 42px !important;
+}
+.grub{
+	width: 105px !important;
+	height: unset !important;
+}
+.door{
+	width: 115px !important;
+	height: unset !important;
+}
 @media screen and (max-width: 600px) {
+	.img-desc {
+		font-size: 20px !important;
+		padding: 0px 0px;
+	}
 	.modalData {
 		position: absolute;
 		top: 0;
@@ -1995,15 +2004,15 @@ button.close{
 		padding-right: 30px;
 		padding-left: 30px;
 		background-image: url(../images/popup3.jpg);
-		background-position: center;
+		background-position: 100% 41%;
 		background-size: cover;
 		background-repeat: no-repeat;
 		padding-bottom: 56px;
-    	padding-top: 190px;
+    	padding-top: 125px;
 	}
 	.modalData .delivery-option .flex div p {
 		padding-top: 8px;
-		padding-left: 10px;
+		padding-left: 0px;
 		margin: 0;
 		font-size: 24px;
 		color: #000000;
@@ -2012,8 +2021,8 @@ button.close{
 		font-weight: 600;
 	}
 	.modalData .order p {
-		font-size: 28px;
-		color: rgb(97, 126, 90);
+		font-size: 20px;
+		color: #000;
 		text-align: center;
 		font-family: 'TT';
 		font-weight: 500;
