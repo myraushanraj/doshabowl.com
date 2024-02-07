@@ -1970,6 +1970,9 @@ button.close{
 .modalData .delivery-option{
 	margin-bottom: 10px;
 }
+.modalData table{
+	margin-left: 15px;
+}
 .img-desc{
 	font-size: 24px !important;
 	padding: 0px 20px;
