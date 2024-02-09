@@ -1930,6 +1930,9 @@ button.close{
 	list-style: none;
 	font-family: 'TT';
 }
+.web-option{
+	margin-left: -141px;
+}
 .modalData{
 	position: absolute;
     top: 6px;
@@ -1951,6 +1954,7 @@ button.close{
     text-align: center;
     font-family: 'TT';
     font-weight: 500;
+	padding: 0px 36px;
 }
 
 
@@ -1966,6 +1970,8 @@ button.close{
 }
 .modalData .delivery-option{
 	margin-bottom: 10px;
+    margin-top: -9px;
+    margin-left: -37px;
 }
 .modalData table{
 	margin-left: 15px;
@@ -1976,7 +1982,7 @@ button.close{
 	padding: 0px 20px;
 }
 .pickup{
-	margin: 22px 0px 4px 0px !important;
+	margin: 15px 0px 4px 0px !important;
 }
 .modalData .address{
 	line-height: 34px;
@@ -1985,7 +1991,6 @@ button.close{
 	width: 300px;
 }
 .uber{
-   margin-left: 6px;
 }
 .grub{
 	
@@ -1994,12 +1999,26 @@ button.close{
 	
 }
 @media screen and (max-width: 600px) {
+	.pickup{
+		margin: 25px 0px 4px 0px !important;
+	}
+	.modalData .delivery-option {
+		margin-bottom: 10px;
+		margin-top: -9px;
+		margin-left: -19px;
+	}
+	.delivery-options{
+		margin-top: 5px!important;
+	}
+	.web-option{
+		margin-left: 0px;
+	}
 	.modalData .delivery-option img{
 		width: 100%;
 	}
 	.img-desc {
 		font-size: 20px !important;
-		padding: 0px 0px;
+		padding: 0px 0px !important;
 	}
 	.modalData {
 		position: absolute;
@@ -2032,6 +2051,7 @@ button.close{
 		font-family: 'TT';
 		font-weight: 500;
 		line-height: 28px;
+		padding: 0px;
 	}
 	.poster{
 		display: none;
